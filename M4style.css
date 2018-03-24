@@ -7,13 +7,12 @@
 		text-align:center;
 		height:44px;
 		width:100%;
-		position:fixed;
+
 	}
 	body{
 		background-color:rgb(239,240,244);
 	}
 	.pageheader1,.pageheader2,.pageheader3{
-		display:inline-block;
 		line-height:44px;
 		color:white;
 	}
@@ -27,9 +26,11 @@
 	}
 	.pageheader2{
 		font-size:1.1em;
+		position:fixed;
+		width:100%;
 	}
 	form{
-		margin:30px 0;
+		margin:13px 0;
 		background-color:white;
 	}
 	.icon{
@@ -39,7 +40,7 @@
 		height:50px;
 		vertical-align:middle;
 	}
-	#username,#password{
+	input{
 		height:2rem;
 		font-size:0.8rem;
 		width:60%;
@@ -50,7 +51,7 @@
 	::-webkit-input-placeholder{
 		color:rgb(233,233,233);
 	}
-	#loginbutton{
+	.button{
 		height:50px;
 		width:100%;
 		background-color:rgb(95,192,205);
@@ -61,15 +62,11 @@
 	}
 	.blank1{
 		background-color:rgb(239,240,244);
-		height:8px;
-	}
-	.blank2{
-		background-color:rgb(239,240,244);
-		height:40px;
+		height:13px;
 	}
 	p{
 		color:rgb(95,192,205);
-		text-align:right;
-		margin:-20px 15px;
+		float:right;
+		margin:20px 15px;
+		text-decoration:underline;
 	}
-s
