@@ -41,13 +41,22 @@
 	}
 	form{
 		margin:30px 0;
+		background-color:rgb(239,240,244);
+	}
+	.phoneicon,.lockicon{
+		height:51px;
+		float:left;
+		width:100%;
 		background-color:white;
 	}
-	.icon{
-		height:50px;
+	.phoneicon{
+		margin:5px 0;
+	}
+	.lockicon{
+		clear:left;
+		margin:5px 0 40px 0;
 	}
 	img{
-
 		height:50px;
 		vertical-align:middle;
 	}
@@ -68,39 +77,27 @@
 		font-size:1rem;
 		color:white;
 	}
-	.blank1{
-		background-color:rgb(239,240,244);
-		height:8px;
-	}
-	.blank2{
-		background-color:rgb(239,240,244);
-		height:40px;
-	}
-
 </style>
 
 </head>
 
 <body>
 	<header>
-		<div class="pageheader1">关闭</div>
-		<div class="pageheader2">登陆</div>
-		<div class="pageheader3">注册></div>
+		<div class="pageheader1">Close</div>
+		<div class="pageheader2">signin</div>
+		<div class="pageheader3">signup</div>
 	</header>
 <br/>
-
 	<form>
-			<div class="phone icon">
-				<img src="img/phone.png" alt="!"/> &nbsp;
+			<div class="phoneicon">
+				<img src="img/phone.png" alt="!"/>
 				<input type="text" name="username" id="username" placeholder="Enter your username"/>
 			</div>
-			<div class="blank1"></div>
-			<div class="lock icon">
-				<img src="img/lock.png" alt="!"/> &nbsp;
+			<div class="lockicon">
+				<img src="img/lock.png" alt="!"/>
 				<input type="password" name="password" id="password" placeholder="Enter your password"/>
 			</div>
-			<div class="blank2"></div>
-			<input type="submit" name="loginbutton" id="loginbutton" value="Login"/>
+			<input type="submit" name="loginbutton" id="loginbutton" value="sign in"/>
 	</form>
 
 
